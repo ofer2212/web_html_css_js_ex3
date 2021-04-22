@@ -26,7 +26,7 @@ header {
 header a {
     width: 90px;
     height: 90px;
-    margin:  auto;
+    margin: auto;
     background: url("../images/logo.png") no-repeat;
 }
 
@@ -147,6 +147,7 @@ footer {
 aside .box-group {
     margin-bottom: 59px;
 }
+
 #layout2 main .box-group {
     width: 556px;
     margin: 22px;
@@ -201,4 +202,73 @@ aside .box-group {
     height: 100px;
 }
 
+
+/*layout3*/
+
+
+#layout3 nav ul {
+    display: flex;
+    width: 699px;
+    margin: 0 auto;
+    justify-content: space-around;
+    height: 62px;
+    align-items: center;
+}
+
+#layout3 nav ul li {
+    flex: 1 1 33%;
+    height: 100%;
+    flex-grow: 0.237;
+    justify-content: space-around;
+}
+
+#layout3 footer {
+    position: fixed;
+    bottom: 0;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery-item {
+    width: 333px;
+    height: 348px;
+    background-position: center;
+    background-size: contain;
+}
+
+.plus-clip {
+    clip-path: polygon(40% 0%, 60% 0%, 60% 40%, 100% 40%, 100% 60%, 60% 60%, 60% 100%, 40% 100%, 40% 60%, 0% 60%, 0% 40%, 40% 40%);
+    background-color: #FFFFFF;
+    width: 86px;
+    height: 86px;
+    margin-left: 124px;
+    margin-top: 131px;
+}
+
+.star-clip {
+    position: absolute;
+    z-index: 2;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    background-color: #FFFFFF;
+    width: 45px;
+    height: 43px;
+    margin-left: 273px;
+    margin-top: 8px;
+}
+.bg-white{
+    background-color: #FFFFFF;
+}
+.bg-red{
+    background-color: #ED4C5C;
+}
+@media screen and (max-width: 750px) {
+
+    #layout3 nav ul, #layout3 #wrapper {
+        width: 666px;
+    }
+
+}
 
