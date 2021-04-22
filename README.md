@@ -10,4 +10,5 @@
 
 ## Layout 3
 
-![layout3](https://user-images.githubusercontent.com/41620574/115693148-569d2e80-a368-11eb-9a48-8a5075409e4f.PNG)
+![ex3_layout3](https://user-images.githubusercontent.com/41620574/115694406-7f71f380-a369-11eb-9423-97030a286b72.gif)
+
