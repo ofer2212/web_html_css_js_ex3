@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <title>Layout 3</title>
+</head>
+<body id="layout3">
+<header>
+    <a href="index.html"></a>
+</header>
+<nav>
+    <ul>
+        <li><a href="index.html">Layout 1</a></li>
+        <li><a href="layout2.html">Layout 2</a></li>
+        <li class="selected"><a href="#">Layout 3</a></li>
+    </ul>
+</nav>
+<div id="wrapper">
+    <main>
+        <section id="gallery"></section>
+    </main>
+</div>
+<footer></footer>
+
+
+<script>
+    $(function() {
+        $('#gallery').initGal("Elfassi");
+    });
+</script>
+</body>
+</html>
